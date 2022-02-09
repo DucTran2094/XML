@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE student SYSTEM 'BT01.dtd'>
+<student>
+    <fullname>Travis Duong</fullname>
+    <dob>09/20/1994</dob>
+    <class>C2104L</class>
+</student>

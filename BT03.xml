@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<!DOCTYPE student [
+<!ELEMENT student (name,dob,class,info)>
+<!ELEMENT name (fullname,middlename*,lastname)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT info (gender,address?,(phone|fax)*)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+]>
+
+<student>
+    <name>
+        <fullname>Travis</fullname>
+        <middlename>D</middlename>
+        <lastname>Duong</lastname>
+    </name>
+    <dob>20/09/1994</dob>
+    <class>C2104L</class>
+    <info>
+        <gender>male</gender>
+        <address>my house</address>
+        <phone>0909123456</phone>
+        <fax>0909123456</fax>
+    </info>
+</student>

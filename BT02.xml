@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE teacher [
+<!ELEMENT teacher (fullname,dob,class)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+]>
+
+<teacher>
+    <fullname>Sir Laurent</fullname>
+    <dob>02/07/1993</dob>
+    <class>C2104L</class>
+</teacher>

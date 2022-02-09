@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE html SYSTEM 'BT05.dtd'>
+<html>
+    <header>
+        <title>This is the title</title>
+    </header>
+    
+    <body>
+        <div>This is the div tag</div>
+        <p>This is the p tag</p>
+        <span>This is the span tag</span>
+        
+        <p>This is also a p tag</p>
+        <span>This is also another span tag</span>
+        <span>Again, another span tag</span>
+        <div>Ending with another div tag now</div>
+    </body>
+</html>
+

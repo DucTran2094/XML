@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT student (fullname,dob,class)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT class (#PCDATA)> 
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<!DOCTYPE poem [
+<!ELEMENT poem (title,header,body,end)>
+<!ELEMENT title (name,author)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT body (nextpara+)>
+<!ELEMENT nextpara (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+
+<!ATTLIST author age CDATA #REQUIRED>
+<!ATTLIST end editor CDATA #REQUIRED>
+<!ATTLIST end date CDATA #IMPLIED>
+]>
+
+<poem>
+    <title>
+        <name>My poem</name>
+        <author age="27">Travis Duong</author>
+    </title>
+    
+    <header>This is the header</header>
+    
+    <body>
+        <nextpara>This is the next para</nextpara>
+        <nextpara>This is also the next para</nextpara>
+    </body>
+    
+    <end editor="myself" date="today">This is the end para</end>
+</poem>
